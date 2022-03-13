@@ -10,12 +10,7 @@ input.addEventListener('change', () => {
 
 	if (files.length == 0) return;
 
-	/* If any further modifications have to be made on the
-	Extracted text. The text can be accessed using the
-	file variable. But since this is const, it is a read
-	only variable, hence immutable. To make any changes,
-	changing const to var, here and In the reader.onload
-	function would be advisible */
+	
 	const file = files[0];
 
 	let reader = new FileReader();
